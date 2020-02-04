@@ -1,29 +1,65 @@
-.menu{
-    margin: 0;
-    padding: 0;
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 980px;
+    margin: 0 auto;
 }
-.menu > ul{
- list-style: none;
+
+.menu {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
-.menu > ul > li{
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(3, 3, 255);
+    list-style: none;
+}
+
+.menu ul li {
+    padding-left: 10px;
     width: 120px;
     height: 30px;
     line-height: 30px;
     display: inline-table;
-    color: white;
-    background: rgb(46, 187, 77);
-    color: white;
+    position: relative;
 }
-.menu > ul > li > a:hover {
-    background: rgb(46, 187, 77);
+
+.menu ul li>a {
     color: white;
+    text-decoration: none;
 }
-.menu > ul > li .menu_1{
+
+.menu ul li>a:hover {
+    color: black;
+    background: white;
+}
+
+.menu ul li>.menu_1 {
+    position: absolute;
     display: none;
 }
-.menu > ul > li:hover .menu_1{
+
+.menu ul li:hover .menu_1 {
     display: block;
 }
-a{
+
+.list {
+    width: 300px;
+    float: right;
+}
+
+.list a {
+    height: 36px;
+    line-height: 35px;
     text-decoration: none;
+    display: block;
+    background: rgb(80, 172, 80);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.chuc_tet{
+    float: left;
 }
