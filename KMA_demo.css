@@ -1,9 +1,20 @@
-body {
+.container {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 980px;
     margin: 0 auto;
 }
-
+.search{
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 285px;
+}
+.search label svg{
+    color: #dd7923;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
 .menu {
     text-align: center;
     margin: 0px;
@@ -46,6 +57,7 @@ body {
 }
 
 .list {
+    overflow: auto;
     width: 300px;
     float: right;
 }
@@ -57,9 +69,64 @@ body {
     display: block;
     background: rgb(80, 172, 80);
     color: white;
-    padding: 5px;
+    padding: 6px;
     text-align: center;
 }
 .chuc_tet{
+    padding-top: 16px;
     float: left;
+}
+.box-thongbao{
+    margin-top: 10px;
+    background: rgb(228, 227, 227);
+    float: right;
+    width: 300px;
+}
+h4{
+    margin-bottom: auto;
+    color: tomato;
+}
+.box-thongbao ul{
+    padding-left: 15px;
+    margin: 0;
+}
+.box-thongbao ul li a{
+    text-decoration: none;
+    color: black;
+}
+.box-thongbao ul li a:hover{
+    color: red;
+}
+.slideshow{
+    float: left;
+    height: 267px;
+}
+.slideshow img{
+    height: 267px;
+}
+.footer{
+    background: #007c7c;
+    width: 100%;
+    height: 100px;
+    float: right;
+}
+.footer .note{
+    color: white;
+    width: 440px;
+    height: 100%;
+    padding-top: 10px;
+    margin-left: 260px;
+    float: left;
+}
+.footer .note p{
+    margin: 0;
+}
+.footer .menu-icon{
+    color: white;
+    width: 300px;
+    height: 100%;
+    float: right;
+    border-left: 1px solid white;
+    padding-left: 5px;
+    margin-right: 256px;
 }
